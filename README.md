@@ -5,6 +5,7 @@ $textReader = new TextFileReader();
 $textReader->open("datos.txt");
 $textContent = $textReader->read();
 $textReader->close();</p>
+</pre>
 
 <p>Forma de llamar a la clase que lee ficheros CSV:</p>
 
