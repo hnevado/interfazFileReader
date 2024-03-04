@@ -38,9 +38,12 @@ class CSVFileReader implements FileReader {
 
     public function read() {
         $data = [];
+        /* fgetcsv(resource $handle,int $length = 0,string $delimiter = ",",string $enclosure = '"',string $escape = "\")*/
+       
         while (($line = fgetcsv($this->file)) !== false) {
             $data[] = $line;
         }
+        
         return $data;
     }
 
