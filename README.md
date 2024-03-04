@@ -22,7 +22,7 @@ $csvReader->close();
 <pre>
 
 ----------- TXT -----------
-Estoy leyendo el documento texto.txt
+Estoy leyendo el documento datos.txt
 Esta es mi segunda línea
  ----------- CSV -----------
 Array
